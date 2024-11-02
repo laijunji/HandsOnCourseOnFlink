@@ -61,7 +61,7 @@ public class WordCount {
 
         @Override
         public Tuple2<String, Integer> map(String s) throws Exception {
-            return new Tuple2<String, Integer>(s, Integer.valueOf(1));
+            return new Tuple2<String, Integer>(s, 1);
         }
     }
 }
